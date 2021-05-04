@@ -9,9 +9,10 @@ The main methods we use in this study are Dissimilarity-based methods and model-
 Furthermore, one primary constraint in most dissimilarity-based methods is the fact that they are based on distance/similarity metrics. So, dealing with mixed-type (continuous and categorical) data is a challenge. Most distance/similarity metrics like Euclidean, Manhattan, Minkowski, and etc., handle continuous data, whereas some metrics like the simple matching introduced to deal with categorical data. In many applications, each instance in a data set is described by more than one type of attribute. In this case, the dissimilarity measures discussed before cannot be applied directly. This study examines Gower's metric to calculate the dissimilarity metric when we have mixed-type data. Moreover, we consider the KPrototypes algorithm that works well on mixed-type data. KPrototypes is a dissimilarity-based method that uses the KMeans and K-Mode clustering algorithm to handle mixed-type data.
 
 ## Procedure
-This study is conducted in 3 main parts.
-- First, we study the variables and their relations.
-- Next, we use dissimilarity-based methods to cluster our data. Three algorithms (KMeans, Hierarchical CLustering, and KPrototypes) are employed for this purpose.
-- Then, we use a model-based method using GMM with EM algorithm to analyze different clusters.
+This study is conducted in 4 main parts.
+- First, we use descriptive analysis to get an idea of our data and find duplications or missing values in advance.
+- Second, we use exploratory data analysis (EDA) to summarize the main characteristics of our data, using statistical graphics and other data visualization methods.
+- Third, we use dissimilarity-based methods to cluster our data. Three algorithms (KMeans, Hierarchical CLustering, and KPrototypes) are employed for this purpose.
+- Fourth, we use a model-based method using GMM with EM algorithm to analyze different clusters.
 
 The summary findings are discussed after each part.
