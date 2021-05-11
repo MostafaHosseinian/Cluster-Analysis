@@ -14,7 +14,7 @@ Besides, one of the most common disadvantages of cluster analysis is related to 
 This study is conducted in 4 main parts.
 - First, we use descriptive analysis to get an idea of our data and find duplications or missing values in advance.
 - Second, we use exploratory data analysis (EDA) to summarize the main characteristics of our data, using statistical graphics and other data visualization methods.
-- Third, we use dissimilarity-based methods to cluster our data. Three algorithms ([KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html), [Hierarchical CLustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html#sklearn.cluster.AgglomerativeClustering), and KPrototypes) are employed for this purpose.
+- Third, we use dissimilarity-based methods to cluster our data. Three algorithms ([KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html), [Hierarchical CLustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html#sklearn.cluster.AgglomerativeClustering), and [KPrototypes](https://pypi.org/project/kmodes/)) are employed for this purpose.
 - Fourth, we use a model-based method using [GMM](https://scikit-learn.org/stable/modules/mixture.html) with EM algorithm to analyze different clusters.
 
 The summary findings are discussed after each part. For more detail, please contact the author (me).
